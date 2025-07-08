@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+agent_env/
+
+# Configuration files with sensitive data
+config.json
+.env
+*.secret
+*.key
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+log/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Agent-specific
+personalities/private_*
+personalities/*_private.json
+agent_memory_private/
+
+# Test outputs
+test_output/
+test_results/
+coverage/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
+docs/site/
